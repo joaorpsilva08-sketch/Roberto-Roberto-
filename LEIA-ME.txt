@@ -1,0 +1,32 @@
+ROBERTO ROBERTO: ALÉM DA MORTE — PACOTE PARA GITHUB PAGES
+
+ARQUIVOS
+- index.html: jogo (versão HTML enviada mais recentemente)
+- manifest.webmanifest: configuração de instalação como aplicativo web
+- sw.js: cache básico para uso após o primeiro carregamento online
+- icon-192.png e icon-512.png: ícones do aplicativo
+
+PUBLICAR PELO CELULAR
+1. Baixe e extraia este ZIP no celular.
+2. Entre em https://github.com e faça login/crie uma conta.
+3. Toque em + e escolha New repository.
+4. Nomeie o repositório, por exemplo: roberto-roberto, marque Public e crie.
+5. Dentro do repositório, escolha Add file > Upload files.
+6. Envie TODOS os arquivos desta pasta (index.html, manifest.webmanifest, sw.js, os dois PNG e este README).
+7. Confirme em Commit changes.
+8. Abra Settings > Pages.
+9. Em Build and deployment, escolha Deploy from a branch.
+10. Selecione Branch: main e Folder: / (root), depois Save.
+11. Aguarde alguns minutos. O endereço será parecido com:
+    https://SEU-USUARIO.github.io/roberto-roberto/
+
+INSTALAR NO ANDROID
+1. Abra o endereço publicado no Google Chrome.
+2. Aguarde o jogo carregar com internet.
+3. Abra o menu de três pontos do Chrome.
+4. Escolha Instalar app ou Adicionar à tela inicial.
+
+OBSERVAÇÕES
+- O jogo carrega Three.js de um CDN externo, então precisa de internet no primeiro carregamento.
+- O cache pode ajudar a abrir depois, mas não garante funcionamento offline completo.
+- O ZIP contém a versão HTML que foi enviada nesta conversa. As melhorias e a cutscene descritas no prompt ainda precisam ser implementadas no código do jogo.
